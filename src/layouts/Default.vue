@@ -1,20 +1,9 @@
-<script setup>
+<script setup lang="ts">
   import { ref } from 'vue';
   import { mdiHomeCity, mdiAccount, mdiAccountGroupOutline, mdiChevronLeft } from "@mdi/js";
   import shellrowIcon from "../assets/shellrow_icon.png";
   const drawer = ref(true);
   const rail = ref(true);
-</script>
-
-<script>
-  export default {
-    data () {
-      return {
-        drawer: true,
-        rail: true,
-      }
-    },
-  }
 </script>
 
 <template>
